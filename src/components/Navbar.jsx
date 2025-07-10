@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-600 p-4 text-white">
       <div className="flex items-center justify-between">
-        <img src="/Public/images/logo.png" alt="Logo" className="h-10" />
+        <img src="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/logo.png?raw=true" alt="Logo" className="h-10" />
         <ul className="flex space-x-6">
           <li>
             <Link
