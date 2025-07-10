@@ -17,7 +17,7 @@ export default function App() {
     {
       element: "Muebles",
       finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
-      image: "/dist/images/cocina-mueble.png",
+      image: "/images/cocina-mueble.png",
     },
     {
       element: "Mesón",
