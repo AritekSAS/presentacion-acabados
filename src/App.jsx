@@ -77,7 +77,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Cocina"
-              imageSrc="/images/cocina-render.png"
+              imageSrc="/Public/images/cocina-render.png"
               finishes={cocinaFinishes}
             />
           }
