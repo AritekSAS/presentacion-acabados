@@ -17,7 +17,7 @@ const Home = () => {
         Proyecto: Casa Marilu - San Sebastian
       </h2>
       <img
-        src="https://raw.githubusercontent.com/AritekSAS/presentacion-acabados/refs/heads/main/Public/images/11.png"
+        src="src="https://raw.githubusercontent.com/AritekSAS/presentacion-acabados/main/public/images/11.png"
         alt="Render de fachada"
         className="max-w-md w-full mb-8 rounded-lg shadow-lg"
       />
