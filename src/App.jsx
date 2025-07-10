@@ -17,51 +17,51 @@ export default function App() {
     {
       element: "Muebles",
       finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
-      image: "/images/cocina-mueble.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-mueble.png?raw=true",
     },
     {
       element: "Mesón",
       finish: "Granito negro pulido",
-      image: "/dist/images/cocina-meson.jpeg",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-meson.png?raw=true",
     },
     {
       element: "Lavaplatos",
       finish: "Lavaplatos De Sobreponer 53x43 Cm Inox",
-      image: "/dist/images/cocina-lavaplatos.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-lavaplatos.png?raw=true",
     },
     {
       element: "Manijas",
       finish: "Manija Cajón Tubular/cilíndrica Liviana",
-      image: "/dist/images/cocina-manijas.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-manijas.png?raw=true",
     },
   ];
     const puertasFachadasFinishes = [
     {
       element: "Puerta principal",
       finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "/dist/images/puerta-principal.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-principal.png?raw=true",
     },
     {
       element: "Puerta lateral",
       finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "/dist/images/puerta-lateral.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-lateral.png?raw=true",
     },
     {
       element: "Puerta terraza",
       finish: "Puerta en madera pintada verde con cerradura de manija negra",
-      image: "/dist/images/puerta-terraza.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true",
     },
   ];
     const puertasInternasFinishes = [
     {
       element: "Laminado",
       finish: "Tablero MDP con recubrimiento melánico acabado en roble claro o roble cenizo. Tono beige grisáceo con vetas suaves que imitan la textura de la madera.",
-      image: "/dist/images/Laminados.jpg",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/Laminados.png?raw=true",
     },
     {
       element: "Cerradura",
       finish: "Chapa de manija negra",
-      image: "/dist/images/cerradura-puerta-interna.png",
+      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-puerta-interna.png?raw=true",
     },
   ];
 
@@ -77,7 +77,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Cocina"
-              imageSrc="/dist/images/cocina-render.png"
+              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-render.png?raw=true"
               finishes={cocinaFinishes}
             />
           }
@@ -87,7 +87,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Puertas Fachadas"
-              imageSrc="/dist/images/render-puertas-fachadas.png"
+              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-fachadas.png?raw=true"
               finishes={puertasFachadasFinishes}
             />
           }
@@ -97,7 +97,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Puertas Internas"
-              imageSrc="/dist/images/render-puertas-internas.png"
+              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-internas.png?raw=true"
               finishes={puertasInternasFinishes}
             />
           }
