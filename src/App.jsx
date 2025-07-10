@@ -76,8 +76,8 @@ export default function App() {
           path="/espacios/cocina"
           element={
             <SpaceDetail
-              title="Cocina"
-              imageSrc="/Public/images/cocina-render.png"
+              title="Cocina
+              imageSrc="/dist/images/cocina-render.png"
               finishes={cocinaFinishes}
             />
           }
@@ -87,7 +87,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Puertas Fachadas"
-              imageSrc="/images/render-puertas-fachadas.png"
+              imageSrc="/dist/images/render-puertas-fachadas.png"
               finishes={puertasFachadasFinishes}
             />
           }
