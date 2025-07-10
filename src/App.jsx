@@ -17,51 +17,51 @@ export default function App() {
     {
       element: "Muebles",
       finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
-      image: "/images/cocina-mueble.png",
+      image: "/dist/images/cocina-mueble.png",
     },
     {
       element: "Mesón",
       finish: "Granito negro pulido",
-      image: "/images/cocina-meson.jpeg",
+      image: "/dist/images/cocina-meson.jpeg",
     },
     {
       element: "Lavaplatos",
       finish: "Lavaplatos De Sobreponer 53x43 Cm Inox",
-      image: "/images/cocina-lavaplatos.png",
+      image: "/dist/images/cocina-lavaplatos.png",
     },
     {
       element: "Manijas",
       finish: "Manija Cajón Tubular/cilíndrica Liviana",
-      image: "/images/cocina-manijas.png",
+      image: "/dist/images/cocina-manijas.png",
     },
   ];
     const puertasFachadasFinishes = [
     {
       element: "Puerta principal",
       finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "/images/puerta-principal.png",
+      image: "/dist/images/puerta-principal.png",
     },
     {
       element: "Puerta lateral",
       finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "/images/puerta-lateral.png",
+      image: "/dist/images/puerta-lateral.png",
     },
     {
       element: "Puerta terraza",
       finish: "Puerta en madera pintada verde con cerradura de manija negra",
-      image: "/images/puerta-terraza.png",
+      image: "/dist/images/puerta-terraza.png",
     },
   ];
     const puertasInternasFinishes = [
     {
       element: "Laminado",
       finish: "Tablero MDP con recubrimiento melánico acabado en roble claro o roble cenizo. Tono beige grisáceo con vetas suaves que imitan la textura de la madera.",
-      image: "/images/Laminados.jpg",
+      image: "/dist/images/Laminados.jpg",
     },
     {
       element: "Cerradura",
       finish: "Chapa de manija negra",
-      image: "/images/cerradura-puerta-interna.png",
+      image: "/dist/images/cerradura-puerta-interna.png",
     },
   ];
 
@@ -97,7 +97,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Puertas Internas"
-              imageSrc="/images/render-puertas-internas.png"
+              imageSrc="/dist/images/render-puertas-internas.png"
               finishes={puertasInternasFinishes}
             />
           }
