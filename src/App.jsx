@@ -21,7 +21,7 @@ export default function App() {
     },
     {
       element: "Mesón",
-      finish: "Granito negro pulido",
+      finish: "Granito negro San Gabriel",
       image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-meson.png?raw=true",
     },
     {
