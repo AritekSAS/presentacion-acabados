@@ -19,6 +19,17 @@ const SpaceMenu = () => {
 
   return (
     <div className="min-h-screen bg-white p-8 flex flex-col items-center">
+      <div className="flex flex-col items-center mt-6 mb-4 text-center">
+        <h3 className="text-lg font-semibold">🎨 Paleta de colores del proyecto</h3>
+        <p className="text-base mb-4 max-w-xl">
+          Estos son los tonos base que usamos para definir los acabados y ambientes de tu vivienda. Reflejan una propuesta equilibrada y moderna, pensada para resaltar la armonía entre espacios interiores y exteriores.
+        </p>
+        <img
+          src="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/paleta-colores.png?raw=true"
+          alt="Paleta de colores del proyecto"
+          className="max-w-md w-full"
+        />
+      </div>
       <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
         Seleccione un Espacio
       </h2>
