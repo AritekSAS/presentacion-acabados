@@ -21,6 +21,13 @@ const Home = () => {
         alt="Render de fachada"
         className="max-w-md w-full mb-8 rounded-lg shadow-lg"
       />
+      <p className="text-center bg-[#f9fafb] p-4 mb-8 text-base rounded-md">
+          ⚠️ Nota: Las imágenes que verás a lo largo de esta presentación son
+          representaciones referenciales y ambientadas. Su propósito es ayudarte a
+          visualizar los espacios y acabados propuestos, pero pueden presentar
+          ligeras variaciones en proporciones, colores o detalles respecto al
+          resultado final.
+      </p>
       <p className="text-[#4D4D4D] text-center max-w-xl mb-8 text-lg">
         ¡Hola! Bienvenid@ a la presentación de acabados de tu nueva casa.
         Aquí puedes ver cómo lucirán los espacios que harán parte de tu hogar.
