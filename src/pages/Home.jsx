@@ -22,7 +22,9 @@ const Home = () => {
         className="max-w-md w-full mb-8 rounded-lg shadow-lg"
       />
       <p className="text-[#4D4D4D] text-center max-w-xl mb-8 text-lg">
-        Bienvenido a la presentación de los acabados de su vivienda. Aquí podrá visualizar cómo quedarán los espacios de su casa. Cualquier ajuste es posible, sujeto a revisión y cotización adicional.
+        ¡Hola! Bienvenid@ a la presentación de acabados de tu nueva casa.
+        Aquí puedes ver cómo lucirán los espacios que harán parte de tu hogar.
+        Si quieres hacer algún cambio, cuéntanos: podemos revisarlo contigo y, si es posible, cotizarlo como un ajuste adicional.
       </p>
       <button
         onClick={handleViewFinishes}
