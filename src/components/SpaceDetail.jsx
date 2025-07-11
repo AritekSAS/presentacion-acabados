@@ -3,7 +3,7 @@ import RequestChangeForm from './RequestChangeForm';
 import Modal from './Modal';
 import { useNavigate } from 'react-router-dom';
 
-const SpaceDetail = ({ title, imageSrc, imageSrc2, finishes }) => {
+const SpaceDetail = ({ title, imageSrc, imageSrc2, finishes, note }) => {
   const [showForm, setShowForm] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const navigate = useNavigate();
@@ -48,6 +48,12 @@ const SpaceDetail = ({ title, imageSrc, imageSrc2, finishes }) => {
         )}
       </div>
 
+      {note && (
+        <p className="text-center mt-4 text-base bg-[#f9fafb] p-4 rounded-md shadow-sm w-full max-w-4xl">
+          {note}
+        </p>
+      )}
+      
       <table className="w-full max-w-4xl table-auto border border-gray-300 mb-8">
         <thead>
           <tr className="bg-gray-100 text-left">
