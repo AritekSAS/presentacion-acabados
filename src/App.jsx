@@ -83,13 +83,7 @@ export default function App() {
         />
         <Route
           path="/espacios/puertas-internas"
-          element={
-            <SpaceDetail
-              title="Puertas Internas"
-              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-internas.png?raw=true"
-              finishes={puertasInternasFinishes}
-            />
-          }
+          element={<PuertasInternas />}
         />
         <Route
           path="/espacios/pisos-general"
