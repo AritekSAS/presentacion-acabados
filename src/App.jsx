@@ -11,6 +11,7 @@ import AreaServicio from './pages/AreaServicio';
 import BanoSocial from './pages/BanoSocial';
 import BanosHabitaciones from './pages/BanosHabitaciones';
 import Closets from './pages/Closets';
+import PuertasInternas from './pages/PuertasInternas';
 
 export default function App() {
     const cocinaFinishes = [
@@ -50,18 +51,6 @@ export default function App() {
       element: "Puerta terraza",
       finish: "Puerta en madera pintada verde con cerradura de manija negra",
       image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true",
-    },
-  ];
-    const puertasInternasFinishes = [
-    {
-      element: "Laminado",
-      finish: "Tablero MDP con recubrimiento melánico acabado en roble claro o roble cenizo. Tono beige grisáceo con vetas suaves que imitan la textura de la madera.",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/Laminados.png?raw=true",
-    },
-    {
-      element: "Cerradura",
-      finish: "Chapa de manija negra",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-puerta-interna.png?raw=true",
     },
   ];
 
