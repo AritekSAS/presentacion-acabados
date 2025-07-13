@@ -79,11 +79,13 @@ const SpaceDetail = ({
             <tr key={index} className="border-t">
               <td className="p-2 border">{item.element}</td>
               <td className="p-2 border">{item.finish}</td>
-              <td
-                className="p-2 border text-blue-600 underline cursor-pointer"
-                onClick={() => setSelectedImage(item.image)}
-              >
-                Ver imagen
+              <td className="p-2 border text-center">
+                <img
+                  src={item.image}
+                  alt={`Imagen de ${item.element}`}
+                  className="w-16 h-16 object-cover cursor-pointer mx-auto"
+                  onClick={() => setSelectedImage(item.image)}
+                />
               </td>
             </tr>
           ))}
