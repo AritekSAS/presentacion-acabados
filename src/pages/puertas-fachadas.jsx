@@ -12,7 +12,7 @@ const puertasFachadasData = [
   {
     element: 'Cerradura puerta balcón habitación secundaria',
     finish:
-      'Cerradura negra tipo alcoba, con cilindro de bronce y escudo metálico. Incluye juego de llaves. Estética moderna y funcional.',
+      'Cerradura negra. Incluye juego de llaves. Estética moderna y funcional.',
     image:
       'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-habitaciones.png?raw=true',
   },
