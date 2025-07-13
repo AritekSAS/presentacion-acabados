@@ -56,7 +56,7 @@ const SpaceDetail = ({
       </div>
 
       {note && (
-        <p className="text-center mt-4 text-base bg-[#f9fafb] p-4 rounded-md shadow-sm w-full max-w-4xl">
+        <p className="text-center mt-4 text-base bg-[#f9fafb] p-4 rounded-md shadow-sm max-w-4xl">
           {note}
         </p>
       )}
