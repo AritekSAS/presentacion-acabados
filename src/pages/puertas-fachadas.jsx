@@ -26,7 +26,8 @@ const PuertasFachadas = () => {
       imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-fachadas.png?raw=true"
       finishes={puertasFachadasData}
       note="🟩 Nota: Las puertas de las fachadas se entregan pintadas en color verde oliva y los marcos en color negro."
-    />
+      extraNote="🟢 Nota: El color verde oliva es una propuesta estética opcional. El cliente puede escoger otro color sin costo adicional, sujeto a disponibilidad y validación previa."
+      />
   );
 };
 

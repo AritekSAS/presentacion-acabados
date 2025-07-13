@@ -3,7 +3,14 @@ import RequestChangeForm from './RequestChangeForm';
 import Modal from './Modal';
 import { useNavigate } from 'react-router-dom';
 
-const SpaceDetail = ({ title, imageSrc, imageSrc2, finishes, note }) => {
+const SpaceDetail = ({
+  title,
+  imageSrc,
+  imageSrc2,
+  finishes,
+  note,
+  extraNote,
+}) => {
   const [showForm, setShowForm] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const navigate = useNavigate();
