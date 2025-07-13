@@ -7,14 +7,14 @@ const puertasFachadasData = [
     finish:
       'Cerradura de seguridad negra mate con manija larga. Diseño contemporáneo, resistente a la oxidación, con sistema de llave. Ideal para uso exterior.',
     image:
-      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-principal.png?raw=true',
+      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-ingreso.png?raw=true',
   },
   {
     element: 'Cerradura puerta balcón habitación secundaria',
     finish:
       'Cerradura negra tipo alcoba, con cilindro de bronce y escudo metálico. Incluye juego de llaves. Estética moderna y funcional.',
     image:
-      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true',
+      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-habitaciones.png?raw=true',
   },
 ];
 
