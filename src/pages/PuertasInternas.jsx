@@ -6,7 +6,7 @@ const puertasInternasData = [
     element: "Laminado",
     finish:
       "Tablero MDP con recubrimiento melamínico acabado en roble claro o roble cenizo. Tono beige grisáceo con vetas suaves que imitan la textura de la madera.",
-    image: "/images/Laminados.jpg",
+    image: "/images/Laminados.png",
   },
   {
     element: "Cerradura",
