@@ -36,23 +36,6 @@ export default function App() {
       image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-manijas.png?raw=true",
     },
   ];
-    const puertasFachadasFinishes = [
-    {
-      element: "Puerta principal",
-      finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-principal.png?raw=true",
-    },
-    {
-      element: "Puerta lateral",
-      finish: "Puerta en madera pintada verde con cerradura negra mate con manija y llave",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-lateral.png?raw=true",
-    },
-    {
-      element: "Puerta terraza",
-      finish: "Puerta en madera pintada verde con cerradura de manija negra",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true",
-    },
-  ];
 
   return (
     <Router>
@@ -73,13 +56,7 @@ export default function App() {
         />
         <Route
           path="/espacios/puertas-fachadas"
-          element={
-            <SpaceDetail
-              title="Puertas Fachadas"
-              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-fachadas.png?raw=true"
-              finishes={puertasFachadasFinishes}
-            />
-          }
+          element={<PuertasFachadas />}
         />
         <Route
           path="/espacios/puertas-internas"

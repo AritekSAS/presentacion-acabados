@@ -60,7 +60,12 @@ const SpaceDetail = ({
           {note}
         </p>
       )}
-      
+       {extraNote && (
+        <p className="text-center mt-2 text-base bg-[#f9fafb] p-4 rounded-md shadow-sm max-w-4xl">
+          {extraNote}
+        </p>
+      )}
+           
       <table className="w-full max-w-4xl table-auto border border-gray-300 mb-8">
         <thead>
           <tr className="bg-gray-100 text-left">
