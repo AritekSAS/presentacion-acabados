@@ -3,19 +3,18 @@ import SpaceDetail from '../components/SpaceDetail';
 
 const puertasFachadasData = [
   {
-    element: 'Puerta Principal',
-    finish: 'Puerta de ingreso principal frente de la casa, con cerradura mate con manija y llave',
-    image: 'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-principal.png?raw=true',
+    element: 'Cerradura puertas de ingreso (frontal y lateral)',
+    finish:
+      'Cerradura de seguridad negra mate con manija larga. Diseño contemporáneo, resistente a la oxidación, con sistema de llave. Ideal para uso exterior.',
+    image:
+      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-principal.png?raw=true',
   },
   {
-    element: 'Puerta Lateral (entrada secundaria)',
-    finish: 'Puerta de ingreso lateral a area de servicio, con cerradura negra mate con manija y llave',
-    image: 'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-lateral.png?raw=true',
-  },
-  {
-    element: 'Puerta Terraza habitación secundaria',
-    finish: 'Puerta salida a la terraza con cerradura chapa de manija negra',
-    image: 'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true',
+    element: 'Cerradura puerta balcón habitación secundaria',
+    finish:
+      'Cerradura negra tipo alcoba, con cilindro de bronce y escudo metálico. Incluye juego de llaves. Estética moderna y funcional.',
+    image:
+      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/puerta-terraza.png?raw=true',
   },
 ];
 
@@ -25,7 +24,10 @@ const PuertasFachadas = () => {
       title="Puertas de Fachada"
       imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-fachadas.png?raw=true"
       finishes={puertasFachadasData}
-      note="🟢 Nota: Las puertas de fachada se entregan con marcos en color negro y acabado verde oliva, como propuesta estética del diseño. Sin embargo, el cliente puede escoger otro color sin costo adicional, sujeto a disponibilidad y validación previa."
+      note={`🟢 Nota: Las puertas de fachada se entregan con marcos en color negro y acabado verde oliva, como propuesta estética del diseño.
+Este acabado aplica para tres puertas: la puerta principal de ingreso frontal, la puerta lateral de acceso al área de servicio,
+y la puerta de salida al balcón desde la habitación secundaria.
+El cliente puede escoger otro color sin costo adicional, sujeto a disponibilidad y validación previa.`}
       />
   );
 };
