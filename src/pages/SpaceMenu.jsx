@@ -9,7 +9,6 @@ const spaces = [
   { name: 'Cocina', path: '/espacios/cocina' },
   { name: 'Baño Social', path: '/espacios/bano-social' },
   { name: 'Baños Habitaciones', path: '/espacios/banos-habitaciones' },
-  { name: 'Adicionales', path: '/espacios/adicionales' },
 ];
 
 const SpaceMenu = () => {

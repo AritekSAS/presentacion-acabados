@@ -19,16 +19,6 @@ const banoSocialFinishes = [
     image: "/images/bano-social-griferia.png",
   },
   {
-    element: "Sanitario",
-    finish: "Corona Redondo Blanco, consumo de agua 3.8 l/min",
-    image: "/images/bano-social-sanitario.png",
-  },
-  {
-    element: "Espejo",
-    finish: "Sin marco 60 x 45 cm",
-    image: "/images/bano-social-espejo.png",
-  },
-  {
     element: "Accesorios",
     finish: "Percha, portarollo y toallero corto negros",
     image: "/images/bano-social-accesorios.png",
