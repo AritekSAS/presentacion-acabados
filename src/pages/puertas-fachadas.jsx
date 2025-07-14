@@ -7,14 +7,14 @@ const puertasFachadasData = [
     finish:
       'Cerradura de seguridad negra mate con manija larga. Diseño contemporáneo, resistente a la oxidación, con sistema de llave. Ideal para uso exterior.',
     image:
-      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-ingreso.png?raw=true',
+      '/images/cerradura-ingreso.png',
   },
   {
     element: 'Cerradura puerta balcón habitación secundaria',
     finish:
       'Cerradura negra. Incluye juego de llaves. Estética moderna y funcional.',
     image:
-      'https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cerradura-habitaciones.png?raw=true',
+      '/images/cerradura-habitaciones.png',
   },
 ];
 
@@ -22,7 +22,7 @@ const PuertasFachadas = () => {
   return (
     <SpaceDetail
       title="Puertas de Fachada"
-      imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-puertas-fachadas.png?raw=true"
+      imageSrc="/images/render-puertas-fachadas.png"
       finishes={puertasFachadasData}
       note={`🟢 Nota: Las puertas de fachada se entregan con marcos en color negro y acabado verde oliva, como propuesta estética del diseño.
 Este acabado aplica para tres puertas: la puerta principal de ingreso frontal, la puerta lateral de acceso al área de servicio,

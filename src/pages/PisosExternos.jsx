@@ -12,7 +12,7 @@ const pisosExternosFinishes = [
 const PisosExternos = () => (
   <SpaceDetail
     title="Pisos Exteriores"
-    imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-pisos-externos.png?raw=true"
+    imageSrc="/images/render-pisos-externos.png"
     finishes={pisosExternosFinishes}
   />
 );

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import IntroAcabados from './pages/IntroAcabados';
 import SpaceMenu from './pages/SpaceMenu';
 import Summary from './pages/Summary';
 import SpaceDetail from './components/SpaceDetail';
@@ -18,22 +19,22 @@ export default function App() {
     {
       element: "Muebles",
       finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-mueble.png?raw=true",
+      image: "/images/cocina-mueble.png",
     },
     {
       element: "Mesón",
       finish: "Granito negro San Gabriel",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-meson.png?raw=true",
+      image: "/images/cocina-meson.png",
     },
     {
       element: "Lavaplatos",
       finish: "Lavaplatos De Sobreponer 53x43 Cm Inox",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-lavaplatos.png?raw=true",
+      image: "/images/cocina-lavaplatos.png",
     },
     {
       element: "Manijas",
       finish: "Manija Cajón Tubular/cilíndrica Liviana",
-      image: "https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-manijas.png?raw=true",
+      image: "/images/cocina-manijas.png",
     },
   ];
 
@@ -42,6 +43,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/acabados" element={<IntroAcabados />} />
+        <Route path="/espacios" element={<SpaceMenu />} />       
         <Route path="/espacios" element={<SpaceMenu />} /> {/* ✅ Agregada */}
         <Route path="/summary" element={<Summary />} />
         <Route
@@ -49,7 +52,7 @@ export default function App() {
           element={
             <SpaceDetail
               title="Cocina"
-              imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/cocina-render.png?raw=true"
+              imageSrc="/images/cocina-render.png"
               finishes={cocinaFinishes}
             />
           }
