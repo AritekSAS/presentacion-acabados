@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import IntroAcabados from './pages/page/Acabados';
+import IntroAcabados from './pages/Acabados';
 import SpaceMenu from './pages/SpaceMenu';
 import Summary from './pages/Summary';
 import SpaceDetail from './components/SpaceDetail';
