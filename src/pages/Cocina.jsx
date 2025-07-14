@@ -3,29 +3,24 @@ import SpaceDetail from '../components/SpaceDetail';
 
 const cocinaData = [
   {
-    element: 'Piso',
-    finish: 'Porcelanato Beige Mate 60x60',
-    image: '/images/piso-cocina.jpg',
+    element: "Muebles",
+    finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
+    image: "/images/cocina-mueble.png",
   },
   {
-    element: 'Paredes',
-    finish: 'Pintura Vinilo Blanco',
-    image: '/images/pared-cocina.jpg',
+    element: "Mesón",
+    finish: "Granito negro San Gabriel",
+    image: "/images/cocina-meson.png",
   },
   {
-    element: 'Techo',
-    finish: 'Drywall con pintura blanca',
-    image: '/images/techo-cocina.jpg',
+    element: "Lavaplatos",
+    finish: "Lavaplatos De Sobreponer 53x43 Cm Inox",
+    image: "/images/cocina-lavaplatos.png",
   },
   {
-    element: 'Grifería',
-    finish: 'Grifería monocontrol negra mate',
-    image: '/images/griferia-cocina.jpg',
-  },
-  {
-    element: 'Otros',
-    finish: 'Mueble inferior madera clara',
-    image: '/images/mueble-cocina.jpg',
+    element: "Manijas",
+    finish: "Manija Cajón Tubular/cilíndrica Liviana",
+    image: "/images/cocina-manijas.png",
   },
 ];
 

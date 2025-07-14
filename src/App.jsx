@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import IntroAcabados from './pages/Acabados';
 import SpaceMenu from './pages/SpaceMenu';
 import Summary from './pages/Summary';
-import Cocina from './pages/Cocina
+import Cocina from './pages/Cocina';
 import PuertasFachadas from './pages/puertas-fachadas';
 import PisosGeneral from './pages/PisosGeneral';
 import PisosExternos from './pages/PisosExternos';
