@@ -8,10 +8,8 @@ import Cocina from './pages/Cocina';
 import PuertasFachadas from './pages/puertas-fachadas';
 import PisosGeneral from './pages/PisosGeneral';
 import PisosExternos from './pages/PisosExternos';
-import AreaServicio from './pages/AreaServicio';
 import BanoSocial from './pages/BanoSocial';
 import BanosHabitaciones from './pages/BanosHabitaciones';
-import Closets from './pages/Closets';
 import PuertasInternas from './pages/PuertasInternas';
 
 export default function App() {
@@ -46,20 +44,12 @@ export default function App() {
           element={<PisosExternos />}
         />
         <Route
-          path="/espacios/area-servicio"
-          element={<AreaServicio />}
-        />
-        <Route
           path="/espacios/bano-social"
           element={<BanoSocial />}
         />
         <Route
           path="/espacios/banos-habitaciones"
           element={<BanosHabitaciones />}
-        />
-        <Route
-          path="/espacios/closets"
-          element={<Closets />}
         />
       </Routes>
     </Router>
