@@ -28,16 +28,8 @@ const Cocina = () => {
   return (
     <SpaceDetail
       title="Cocina"
-      imageSrc="/images/render-cocina.jpg"
-      finishes={cocinaData}
-    />
-  );
-};
-const Cocina2 = () => {
-  return (
-    <SpaceDetail
-      title="Cocina2"
-      imageSrc2="/images/render-cocina2.jpg"
+      imageSrc="/images/render-cocina.png"
+      imageSrc2="/images/render-cocina2.png"
       finishes={cocinaData}
     />
   );

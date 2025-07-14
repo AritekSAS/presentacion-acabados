@@ -29,28 +29,19 @@ const SpaceDetail = ({
       <h1 className="text-3xl font-bold text-gray-800 mb-4">{title}</h1>
 
       {/* Contenedor de una o dos imágenes */}
-      <div className={`flex ${imageSrc2 ? 'flex-wrap md:flex-nowrap justify-center gap-4' : 'justify-center'}`}>
+       <div className="flex flex-col items-center">
         {imageSrc && (
-          <div className="flex flex-col gap-4 items-center w-full max-w-4xl mb-6">
-            <img
-              src={imageSrc}
-              alt={`Render de ${title}`}
-              className="w-full max-w-2xl rounded-lg shadow"
-            />
-            {imageSrc2 && (
-              <img
-                src={imageSrc2}
-                alt={`Render adicional de ${title}`}
-                className="w-full max-w-2xl rounded-lg shadow"
-              />
-            )}
-          </div>
+          <img
+            src={imageSrc}
+            alt={`Render de ${title}`}
+            className="max-w-3xl mx-auto my-4 rounded-lg shadow"
+          />    
         )}
         {imageSrc2 && (
           <img
             src={imageSrc2}
-            alt={`Render de ${title} 2`}
-            className="w-full max-w-2xl mb-6 rounded-lg shadow"
+            alt={`Render adicional de ${title}`}
+            className="max-w-3xl mx-auto my-4 rounded-lg shadow"
           />
         )}
       </div>
