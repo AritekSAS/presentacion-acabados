@@ -7,10 +7,8 @@ const spaces = [
   { name: 'Piso Interior General', path: '/espacios/pisos-general' },
   { name: 'Piso Exteriores', path: '/espacios/pisos-externos' },
   { name: 'Cocina', path: '/espacios/cocina' },
-  { name: 'Área de Servicio', path: '/espacios/area-servicio' },
   { name: 'Baño Social', path: '/espacios/bano-social' },
   { name: 'Baños Habitaciones', path: '/espacios/banos-habitaciones' },
-  { name: 'Closets y Vestier', path: '/espacios/closets' },
   { name: 'Adicionales', path: '/espacios/adicionales' },
 ];
 
