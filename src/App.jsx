@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import IntroAcabados from './pages/Acabados';
 import SpaceMenu from './pages/SpaceMenu';
 import Summary from './pages/Summary';
-import SpaceDetail from './components/SpaceDetail';
+import Cocina from './pages/Cocina
 import PuertasFachadas from './pages/puertas-fachadas';
 import PisosGeneral from './pages/PisosGeneral';
 import PisosExternos from './pages/PisosExternos';
@@ -15,28 +15,6 @@ import Closets from './pages/Closets';
 import PuertasInternas from './pages/PuertasInternas';
 
 export default function App() {
-    const cocinaFinishes = [
-    {
-      element: "Muebles",
-      finish: "Tablero MDP, con recubrimiento melánico color HUMO mate",
-      image: "/images/cocina-mueble.png",
-    },
-    {
-      element: "Mesón",
-      finish: "Granito negro San Gabriel",
-      image: "/images/cocina-meson.png",
-    },
-    {
-      element: "Lavaplatos",
-      finish: "Lavaplatos De Sobreponer 53x43 Cm Inox",
-      image: "/images/cocina-lavaplatos.png",
-    },
-    {
-      element: "Manijas",
-      finish: "Manija Cajón Tubular/cilíndrica Liviana",
-      image: "/images/cocina-manijas.png",
-    },
-  ];
 
   return (
     <Router>
@@ -47,15 +25,9 @@ export default function App() {
         <Route path="/espacios" element={<SpaceMenu />} />       
         <Route path="/espacios" element={<SpaceMenu />} /> {/* ✅ Agregada */}
         <Route path="/summary" element={<Summary />} />
-        <Route
-          path="/espacios/cocina"
-          element={
-            <SpaceDetail
-              title="Cocina"
-              imageSrc="/images/cocina-render.png"
-              finishes={cocinaFinishes}
-            />
-          }
+        <Route 
+          path="/espacios/cocina" 
+          element={<Cocina />} 
         />
         <Route
           path="/espacios/puertas-fachadas"
