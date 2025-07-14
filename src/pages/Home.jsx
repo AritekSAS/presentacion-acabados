@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleViewFinishes = () => {
-    navigate('/espacios');
+    navigate('/acabados');
   };
 
   return (
