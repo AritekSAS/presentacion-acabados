@@ -38,5 +38,13 @@ const Cocina = () => {
     />
   );
 };
-
+const Cocina2 = () => {
+  return (
+    <SpaceDetail
+      title="Cocina2"
+      imageSrc2="/images/render-cocina2.jpg"
+      finishes={cocinaData}
+    />
+  );
+};
 export default Cocina;
