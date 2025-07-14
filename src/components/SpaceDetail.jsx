@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 const SpaceDetail = ({
   title,
   imageSrc,
-  imageSrc2,
   finishes,
   note,
   extraNote,
@@ -34,13 +33,6 @@ const SpaceDetail = ({
           <img
             src={imageSrc}
             alt={`Render de ${title}`}
-            className="w-full max-w-2xl mx-auto my-4 max-h-[400px] sm:max-h-[500px] object-contain rounded-lg shadow"
-          />
-        )}
-        {imageSrc2 && (
-          <img
-            src={imageSrc2}
-            alt={`Render adicional de ${title}`}
             className="w-full max-w-2xl mx-auto my-4 max-h-[400px] sm:max-h-[500px] object-contain rounded-lg shadow"
           />
         )}
