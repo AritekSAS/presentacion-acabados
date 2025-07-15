@@ -24,7 +24,7 @@ const PuertasFachadas = () => {
       title="Puertas de Fachada"
       imageSrc="/images/puertas-fachadas.png"
       finishes={puertasFachadasData}
-      note={`🟢 Nota: Las puertas de fachada se entregan con marcos en color negro y acabado verde oliva, como propuesta estética del diseño.
+      note={`🟢 Nota: Las puertas de fachada se entregan con marcos en color negro y acabado verde grisáceo profundo, como propuesta estética del diseño.
 Este acabado aplica para tres puertas: la puerta principal de ingreso frontal, la puerta lateral de acceso al área de servicio,
 y la puerta de salida al balcón desde la habitación secundaria.
 El cliente puede escoger otro color sin costo adicional, sujeto a disponibilidad y validación previa.`}
