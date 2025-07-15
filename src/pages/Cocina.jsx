@@ -64,7 +64,7 @@ const Cocina = () => {
             <div className="bg-gray-300 h-2 rounded" />
             <div className="absolute left-[72%] -top-3 flex flex-col items-center">
               <div className="w-0 h-0 border-l-4 border-r-4 border-b-8 border-transparent border-b-green-600"></div>
-              <span className="text-xs mt-1 whitespace-nowrap">Su cocina: 5.63 m²</span>
+              <span className="text-xs mt-2 whitespace-nowrap">Su cocina: 5.63 m²</span>
             </div>
           </div>
           <span className="text-xs sm:text-sm whitespace-nowrap">Cocina grande (7.0 m²)</span>

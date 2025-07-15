@@ -1,8 +1,55 @@
+import { useEffect, useState } from 'react';
+
 export default function Summary() {
+  const [requests, setRequests] = useState([]);
+
+  useEffect(() => {
+    const stored = JSON.parse(localStorage.getItem('changeRequests') || '[]');
+    setRequests(stored);
+  }, []);
+
+  const handleDelete = (idx) => {
+    const updated = requests.filter((_, i) => i !== idx);
+    setRequests(updated);
+    localStorage.setItem('changeRequests', JSON.stringify(updated));
+  };
+
   return (
-    <div className="p-10">
-      <h1 className="text-2xl font-bold">Resumen Final</h1>
-      <p>Aquí se mostrará un resumen de los acabados seleccionados.</p>
+    <div className="min-h-screen p-8">
+      <h1 className="text-2xl font-bold mb-4">Solicitudes de cambio</h1>
+      {requests.length === 0 ? (
+        <p>No hay solicitudes registradas.</p>
+      ) : (
+        <table className="table-auto w-full border-collapse">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border p-2 text-left">Página</th>
+              <th className="border p-2 text-left">Solicitud</th>
+              <th className="border p-2 text-left">Fecha</th>
+              <th className="border p-2 text-left">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            {requests.map((req, idx) => (
+              <tr key={idx} className="border-t">
+                <td className="border p-2">{req.page}</td>
+                <td className="border p-2 whitespace-pre-wrap">{req.text}</td>
+                <td className="border p-2">
+                  {new Date(req.date).toLocaleString()}
+                </td>
+                <td className="border p-2 text-center">
+                  <button
+                    onClick={() => handleDelete(idx)}
+                    className="text-red-600 hover:underline"
+                  >
+                    🗑 Eliminar
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 }
