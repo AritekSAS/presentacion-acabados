@@ -22,6 +22,14 @@ export default function Navbar() {
               Resumen
             </Link>
           </li>
+          <li>
+            <Link
+              to="/admin"
+              className="hover:underline transition duration-200"
+            >
+              Admin
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

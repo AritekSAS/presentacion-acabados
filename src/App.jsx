@@ -11,6 +11,7 @@ import PisosExternos from './pages/PisosExternos';
 import BanoSocial from './pages/BanoSocial';
 import BanosHabitaciones from './pages/BanosHabitaciones';
 import PuertasInternas from './pages/PuertasInternas';
+import AdminRequests from './pages/AdminRequests';
 
 export default function App() {
 
@@ -51,6 +52,7 @@ export default function App() {
           path="/espacios/banos-habitaciones"
           element={<BanosHabitaciones />}
         />
+        <Route path="/admin" element={<AdminRequests />} />
       </Routes>
     </Router>
   );
