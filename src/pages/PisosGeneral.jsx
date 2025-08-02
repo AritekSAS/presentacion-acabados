@@ -14,7 +14,7 @@ const PisosGeneral = () => {
   return (
     <SpaceDetail
       title="Pisos General"
-      imageSrc="/images/render-pisos-general.png"
+      imageSrc="https://github.com/AritekSAS/presentacion-acabados/blob/main/public/images/render-pisos-general.png?raw=true"
       finishes={pisosGeneralData}
     />
   );
