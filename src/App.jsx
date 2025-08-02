@@ -11,6 +11,7 @@ import PisosExternos from './pages/PisosExternos';
 import BanoSocial from './pages/BanoSocial';
 import BanosHabitaciones from './pages/BanosHabitaciones';
 import PuertasInternas from './pages/PuertasInternas';
+import PresentacionAritek from './pages/presentacion-aritek';
 
 export default function App() {
 
@@ -20,9 +21,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/acabados" element={<IntroAcabados />} />
-        <Route path="/espacios" element={<SpaceMenu />} />       
-        <Route path="/espacios" element={<SpaceMenu />} /> {/* ✅ Agregada */}
+        <Route path="/espacios" element={<SpaceMenu />} />
         <Route path="/summary" element={<Summary />} />
+        <Route path="/presentacion-aritek" element={<PresentacionAritek />} />
         <Route 
           path="/espacios/cocina" 
           element={<Cocina />} 
