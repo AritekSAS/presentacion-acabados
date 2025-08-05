@@ -37,12 +37,6 @@ const changes = [
     note: 'Se optó por un guardaescobas de 10 cm de alto en lugar del original de 8 cm. Este cambio tiene un mayor costo debido a que el guardaescobas de 8 cm venía en packs con descuento. El nuevo guardaescobas de 10 cm se cotiza por unidad sin descuentos.',
     cost: '$1.087.900',
   },
-  {
-    title: 'Cambio de puerta de fachada',
-    image: '/images/puerta.png',
-    note: 'Se personalizó el color y diseño de la puerta de entrada.',
-    cost: null,
-  },
 ];
 
 const PresentacionAritek = () => {
