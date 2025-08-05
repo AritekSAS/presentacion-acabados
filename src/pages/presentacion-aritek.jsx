@@ -2,22 +2,16 @@ import React from 'react';
 
 const changes = [
   {
-    title: 'Baños (cambio de muebles)',
-    image: '/images/banos-mueble.png',
-    note: 'Se ajustó el color de los muebles del baño del primer piso y el de las habitaciones secundarias. En el baño principal también se cambió el mueble por uno de mayor tamaño y se añadió una repisa adicional.',
-    cost: '$864.000',
-  },
-  {
-    title: 'Cambio de espejo del baño',
+    title: 'Baños',
     image: '/images/bano-principal.png',
-    note: 'Se reemplazó el espejo original de 60×45 cm por uno más grande de 60×90 cm, mejorando la funcionalidad visual del baño.',
-    cost: '$250.000',
+    note: 'Se ajustó el color de los muebles del baño del primer piso y el de las habitaciones secundarias. En el baño principal también se cambió el mueble por uno de mayor tamaño y se añadió una repisa adicional, tambien se reemplazó el espejo original de 60×45 cm por uno más grande de 60×120 cm, mejorando la funcionalidad visual del baño.',
+    cost: '$864.000',
   },
   {
     title: 'Cambio de lavaplatos en la cocina',
     image: '/images/lavaplatos.png',
     note: 'Se reemplazó el lavaplatos sencillo por uno doble con conexión a doble desagüe, para mayor comodidad y funcionalidad.',
-    cost: '$300.000',
+    cost: '$200.000',
   },
   {
     title: 'Cambio de estufa',
