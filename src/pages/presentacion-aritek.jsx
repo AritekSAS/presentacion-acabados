@@ -27,13 +27,13 @@ const changes = [
   },
   {
     title: 'Cambio de color de puertas internas y clósets',
-    image: '/images/render-puertas-internas.png',
+    image: '/images/puertas-internas.png',
     note: 'Se personalizó el color de los clósets y puertas internas para unificar el diseño interior.',
     cost: '$500.000',
   },
   {
     title: 'Cambio de guardaescobas de 8 cm a 10 cm',
-    image: '/images/render-pisos-general.png',
+    image: '/images/guardaescobas2.png',
     note: 'Se optó por un guardaescobas de 10 cm de alto en lugar del original de 8 cm. Este cambio tiene un mayor costo debido a que el guardaescobas de 8 cm venía en packs con descuento. El nuevo guardaescobas de 10 cm se cotiza por unidad sin descuentos.',
     cost: '$1.087.900',
   },
